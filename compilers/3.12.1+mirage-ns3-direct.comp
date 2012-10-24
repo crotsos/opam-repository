@@ -6,7 +6,6 @@ build: [
   ["%{make}%" "world"]
   ["%{make}%" "world.opt"]
   ["%{make}%" "install"]
-  ["sh" "-c" "rm %{lib}%/ocaml/bigarray.*"]
 ]
 packages: ["lwt"]
 env: [

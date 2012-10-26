@@ -1,0 +1,10 @@
+opam-version:"1"
+maintainer: "cr409@cl.cam.ac.uk"
+build: [
+  ["make" "all"]
+  ["make" "install"]
+]
+remove: [
+  ["ocamlfind" "remove" "openflow"]
+]
+depends: ["cstruct" "lwt" "ocamlfind"]

@@ -7,4 +7,4 @@ build: [
 remove: [
   ["ocamlfind" "remove" "openflow"]
 ]
-depends: ["cstruct" "lwt" "ocamlfind"]
+depends: ["cstruct" "lwt" "ocamlfind" "mirage-net"]
